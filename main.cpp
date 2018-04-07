@@ -6,7 +6,7 @@ int main()
     sf::RenderWindow window(sf::VideoMode(800, 600), "Pong");
 
     // Главный цикл приложения
-    while(window.isOpen())
+    while(window.isOpen ())
     {
         // Обрабатываем события в цикле
         sf::Event event;
